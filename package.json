@@ -48,6 +48,11 @@
     "typecheck": "tsc --noEmit",
     "up": "taze major -r -w -I"
   },
+  "dependencies": {
+    "eventemitter3": "^5.0.0",
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
   "devDependencies": {
     "@antfu/ni": "^0.20.0",
     "@kirklin/eslint-config": "^0.2.6",
